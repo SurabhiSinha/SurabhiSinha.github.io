@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Header */
+
+header {
+  background: #222222;
+  color: #ffffff;
+  padding: 0px 0px;
+}
+
+header #page-header {
+  color: white;
+  text-decoration: none;
+  width: 49%;
+  display: inline-block;
+}
+
+header img {
+  width: 80px;
+  /* height: 100px; */
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+header h2 {
+  font-size: 16px;
+}
+
+header #main-nav {
+  width: 49%;
+  display: inline-block;
+  text-align: right;
+}
+
+header #main-nav ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+header #main-nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+header #main-nav ul li:hover {
+  background: #444;
+  border-radius: 3px;
+  transition: 0.3s ease all;
+  cursor: pointer;
+}
+
+/* footer */
+
+footer {
+  background: #222;
+  color: #777;
+  padding: 20px;
+  text-align: center;
+}
+footer img {
+  display: block;
+  border-radius: 50%;
+  width: 80px;
+  margin: 0 auto 10px;
+}
+
+/* Hero Section */
+
+.hero {
+  min-height: 800px;
+  text-align: center;
+  background: #555;
+  background-image: url('Music.jpg');
+  background-size: cover;
+}
+
+.hero-content {
+  color: white;
+  padding-top: 130px;
+  line-height: 1;
+}
+
+.hero-title {
+  margin: 0;
+  font-size: 80px;
+  color: rgb(173, 99, 56);
+}
+
+.hero-content p {
+  font-size: 30px;
+  margin-bottom: 60px;
+  color: silver;
+}
+
+/* What we do */
+.site-section {
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.section-header {
+  text-align: center;
+  /* margin-bottom: 30px; */
+}
+
+.site-section-inside {
+  width: 80%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: silver; */
+}
+
+.section-header h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #777;
+}
+
+/* Do box */
+/* FEATURE BOXES */
+
+.do-box {
+  display: inline-block;
+  width: 24%;
+  padding: 20px 30px;
+  line-height: 1;
+}
+
+.do-box img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.do-box h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: 300px;
+  letter-spacing: 2px;
+}
+
+/* About */
+
+.about {
+  background: lavender;
+  width: 100%;
+  padding: 50px 0;
+}
+
+/* Members */
+
+.testimonial-box {
+  display: inline-block;
+  width: 27%;
+  padding: 20px 30px;
+}
+
+.testimonial-content {
+  background: #ecf0f1;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.testimonial-author img {
+  float: left;
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.testimonial-author h4 {
+  font-size: 18px;
+  margin: 0;
+  padding-top: 15px;
+}
+
+.testimonial-author span {
+  color: #999;
+  font-size: 14px;
+}
